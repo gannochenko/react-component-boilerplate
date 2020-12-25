@@ -1,5 +1,5 @@
 import { Ref } from 'react';
-import { <%- component_name_pascal %>PropsType } from './types';
+import { <%- component_name_pascal %>PropsType } from '../type';
 
 export const use<%- component_name_pascal %> = (
     ref: Ref<unknown>,

@@ -3,10 +3,10 @@ import styled, { css } from 'styled-components';
 import {
     <%- component_name_pascal %>RootPropsType,
     <%- component_name_pascal %>InnerNodePropsType,
-} from './types';
+} from './type';
 
-import { getMarginStyle } from '../../utils/getMarginStyle';
-import { getResetStyle } from '../../utils/getResetStyle';
+import { getMarginStyle } from '../../util/getMarginStyle';
+import { getResetStyle } from '../../util/getResetStyle';
 
 // all unwanted custom props should be blacklisted
 const customProps = {

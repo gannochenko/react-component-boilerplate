@@ -1,7 +1,6 @@
 import { HTMLAttributes } from 'react';
 import { StylePropsType, ObjectLiteralType } from '../../typeComponent';
-
-import { MarginPropsType } from "../../util/getMarginStyle";
+import { MarginPropsType } from '../../util/getMarginStyle';
 
 export type <%- component_name_pascal %>PropsType = HTMLAttributes<HTMLDivElement> &
     Partial<{

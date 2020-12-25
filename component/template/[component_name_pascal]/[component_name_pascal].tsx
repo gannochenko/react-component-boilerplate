@@ -1,10 +1,10 @@
 import React, { forwardRef, FC } from 'react';
 import PropsTypes from 'prop-types';
 
-import { <%- component_name_pascal %>PropsType } from "./type";
-import { <%- component_name_pascal %>Root, <%- component_name_pascal %>InnerNode } from "./styles";
-import { use<%- component_name_pascal %> } from "./hooks/use<%- component_name_pascal %>";
-import { use<%- component_name_pascal %>ClassNames } from "./hooks/use<%- component_name_pascal %>ClassNames";
+import { <%- component_name_pascal %>PropsType } from './type';
+import { <%- component_name_pascal %>Root, <%- component_name_pascal %>InnerNode } from './style';
+import { use<%- component_name_pascal %> } from './hooks/use<%- component_name_pascal %>';
+import { use<%- component_name_pascal %>ClassNames } from './hooks/use<%- component_name_pascal %>ClassNames';
 
 export const <%- component_name_pascal %>: FC<<%- component_name_pascal %>PropsType> = forwardRef(
     function <%- component_name_pascal %>({ className, ...props }, ref) {

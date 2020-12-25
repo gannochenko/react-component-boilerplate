@@ -1,7 +1,7 @@
-type ObjectLiteralType<V = any> = { [k: string]: V };
+export type ObjectLiteralType<V = any> = { [k: string]: V };
 
-type ThemeType = ObjectLiteralType;
+export type ThemeType = ObjectLiteralType;
 
-type StylePropsType = {
+export type StylePropsType = {
     theme: ThemeType;
 };
