@@ -37,7 +37,7 @@ const getRootStyle = ({ propA, propB }: <%- component_name_pascal %>RootPropsTyp
 };
 
 export const <%- component_name_pascal %>Root = styled.div.withConfig({
-    shouldForwardProp: (prop) => !(prop in customProps)
+    shouldForwardProp: (prop: <%- component_name_pascal %>RootPropsType) => !(prop in customProps)
 })<<%- component_name_pascal %>RootPropsType>`
     ${getResetStyle};
     padding: 1rem;

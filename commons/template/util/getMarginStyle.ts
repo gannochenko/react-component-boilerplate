@@ -1,7 +1,7 @@
 import { css } from 'styled-components';
 
 export type ScalarType = string | number;
-export type MarginPropType = Partial<{
+export type MarginPropsType = Partial<{
     margin: ScalarType;
     marginTop: ScalarType;
     marginBottom: ScalarType;
@@ -27,10 +27,10 @@ export const getMarginStyle = ({
     marginBottom,
     marginLeft,
     marginRight
-}: MarginPropType) => css`
+}: MarginPropsType) => css`
     ${getStyleFor("margin", margin)};
-    ${getStyleFor("margin-top", margin)};
-    ${getStyleFor("margin-bottom", margin)};
-    ${getStyleFor("margin-left", margin)};
-    ${getStyleFor("margin-right", margin)};
+    ${getStyleFor("margin-top", marginTop)};
+    ${getStyleFor("margin-bottom", marginBottom)};
+    ${getStyleFor("margin-left", marginLeft)};
+    ${getStyleFor("margin-right", marginRight)};
 `;
