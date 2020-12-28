@@ -26,5 +26,5 @@ export const <%- component_name_pascal %>: FC<<%- component_name_pascal %>PropsT
 <%- component_name_pascal %>.defaultProps = {
 };
 
-<%- component_name_pascal %>.PropsTypes = {
+<%- component_name_pascal %>.propTypes = {
 };
